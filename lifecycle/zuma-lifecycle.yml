@@ -1,0 +1,11 @@
+generated: '2026-07-21'
+method: searched
+source: https://status.getzuma.com
+# Zuma publishes no public developer API, so there is no versioning,
+# deprecation, or SLA policy to capture. The one operational-transparency
+# surface found is a public status page.
+status_page: https://status.getzuma.com
+versioning: null
+deprecation: null
+sla: null
+deprecated_operations: []

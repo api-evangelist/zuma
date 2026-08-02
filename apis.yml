@@ -1,7 +1,19 @@
 aid: zuma
 name: Zuma
-description: Zuma is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Zuma (legally Resident Boost Inc., d/b/a Zuma) is an AI platform for the
+  multifamily / apartment industry, best known for "Kelsey," an AI assistant
+  with human back-up that handles renter engagement across the resident
+  lifecycle. Kelsey automates leasing (responding to inquiries, qualifying
+  prospects, and scheduling tours), rent collections (payment reminders,
+  late-resident follow-up, and commitment tracking), move-outs (notices,
+  inspections, and security-deposit handling), and inbound property calls via
+  VoiceAI. Zuma integrates into property-management and CRM systems used by
+  operators — Yardi, RealPage, Entrata, Knock, and Microsoft/Google calendars —
+  to boost NOI and conversion. The company is backed by Andreessen Horowitz
+  (a16z). Zuma does not currently publish a public developer API, developer
+  portal, or API reference; this profile captures its public web, commercial,
+  and operational surface.
 url: https://raw.githubusercontent.com/api-evangelist/zuma/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +21,58 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://cdn.prod.website-files.com/684b41f571798f3902e31265/68cb8f4d9a5c5980c39f6d24_OpenGraph%20-%20New%20Kelsey.png
 tags:
 - Company
+- Real Estate
+- PropTech
+- Multifamily
+- Property Management
+- Artificial Intelligence
+- Leasing
+- Rent Collections
+- Conversational AI
 apis: []
+common:
+- type: DomainSecurity
+  url: security/zuma-domain-security.yml
+- type: Website
+  url: https://www.getzuma.com
+- type: Pricing
+  url: https://www.getzuma.com/pricing
+- type: Blog
+  url: https://www.getzuma.com/blog
+- type: Support
+  url: https://www.getzuma.com/faq
+- type: PrivacyPolicy
+  url: https://www.getzuma.com/legal/privacy-policy
+- type: TermsOfService
+  url: https://www.getzuma.com/legal/terms-of-service
+- type: StatusPage
+  url: https://status.getzuma.com
+- type: Lifecycle
+  url: lifecycle/zuma-lifecycle.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
