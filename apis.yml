@@ -49,7 +49,7 @@ modified: '2026-07-21'
 image: https://cdn.prod.website-files.com/684b41f571798f3902e31265/68cb8f4d9a5c5980c39f6d24_OpenGraph%20-%20New%20Kelsey.png
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - PropTech
 - Multifamily
 - Property Management
@@ -67,6 +67,7 @@ tags_raw:
 - Leasing
 - Rent Collections
 - Conversational AI
+- Real-Estate
 apis: []
 common:
 - type: DomainSecurity
