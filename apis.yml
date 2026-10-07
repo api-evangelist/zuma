@@ -70,6 +70,8 @@ tags_raw:
 - Real-Estate
 apis: []
 common:
+- type: Plans
+  url: plans/zuma-plans-pricing.yml
 - type: DomainSecurity
   url: security/zuma-domain-security.yml
 - type: Website
