@@ -1,0 +1,33 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.getzuma.com/pricing
+sources:
+- https://www.getzuma.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: negotiated
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: false
+note: No numeric prices; per-unit per-month subscription quoted by quantity, 30-day free trial advertised.
+  Only stated percentage is a bundle discount, not a price.
+plan_count: 3
+plans:
+- name: Leasing AI
+  price_text: Per Unit, Per Month Subscription (30 day terms) based on quantity
+  period: month
+  unit: unit
+- name: Collections AI
+  price_text: Per Unit, Per Month Subscription (30 day terms) based on quantity
+  period: month
+  unit: unit
+- name: Full Platform
+  price_text: 30% + discount compared to buying Leasing and Collections separately
+  period: month
+  included_quota: Everything in Leasing and Collections AI
