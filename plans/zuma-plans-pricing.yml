@@ -31,3 +31,34 @@ plans:
   price_text: 30% + discount compared to buying Leasing and Collections separately
   period: month
   included_quota: Everything in Leasing and Collections AI
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - metered
+  units:
+  - credit
+  plans:
+  - name: Leasing AI
+    access: other
+    model: metered
+    model_how: derived
+    units:
+    - credit
+    periods:
+    - month
+  - name: Collections AI
+    access: other
+    model: metered
+    model_how: derived
+    units:
+    - credit
+    periods:
+    - month
+  - name: Full Platform
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - month
